@@ -103,6 +103,7 @@ public class SnakeAndLadder {
             snl.roll(5);
             snl.roll(4);
             if(snl.pos >= 100){
+                System.out.println("yey, you've won!");
                 break;
             }
         }
